@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DoKo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="number_of_players">Mit wie vielen Spielern wollt ihr spielen?</string>
+
+    <string name="name_of_players">Bitte tragt eure Namen ein</string>
+
+    <string name="four_players">4</string>
+    <string name="five_players">5</string>
+    <string name="six_players">6</string>
+
+
+
+</resources>
