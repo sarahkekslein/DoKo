@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dklein.doko.DoKo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,13 +27,14 @@
             android:id="@+id/names"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="15dp"
             android:textStyle="bold"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameOne"
             android:layout_gravity="center_horizontal"
@@ -35,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameTwo"
             android:layout_gravity="center_horizontal"
@@ -45,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameThree"
             android:layout_gravity="center_horizontal"
@@ -55,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameFour"
             android:layout_gravity="center_horizontal"
@@ -65,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameFive"
             android:layout_marginBottom="15dp" />
@@ -74,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="@string/name"
             android:ems="10"
             android:id="@+id/nameSix"
             android:layout_gravity="center_horizontal"

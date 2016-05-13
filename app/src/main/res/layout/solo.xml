@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dklein.doko.DoKo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <!--android:gradientRadius="80%" oder mit p hinten Probleme, dass -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/solo"
+            android:id="@+id/solo"
+            android:layout_marginBottom="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/square"
+            android:id="@+id/square"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heart"
+        android:id="@+id/heart"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peak"
+            android:id="@+id/peak"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cross"
+            android:id="@+id/cross"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ladies"
+            android:id="@+id/ladies"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knaves"
+            android:id="@+id/knaves"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trump"
+            android:id="@+id/trump"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meatless"
+            android:id="@+id/meatless"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary" />
+            -->
+
+    </LinearLayout>
+</RelativeLayout>
