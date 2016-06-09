@@ -16,34 +16,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="115dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
-
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/number_of_players"
-            android:id="@+id/number_of_player"
+            android:text="@string/reservation_choice"
+            android:id="@+id/reservation_choice"
             android:layout_marginBottom="30dp"
             android:textColor="#000000"
             android:textStyle="bold"
-            android:textAlignment="center" />
+            android:textAlignment="center"/>
 
         <Button
-            android:text="@string/four_players"
-            android:id="@+id/four_players"
+            android:text="@string/poverty"
+            android:id="@+id/poverty"
             style="@style/ourButton"/>
 
         <Button
-            android:text="@string/five_players"
-            android:id="@+id/five_players"
-            style="@style/ourButton" />
+            android:text="@string/marriage"
+            android:id="@+id/marriage"
+            style="@style/ourButton"/>
 
         <Button
-            android:text="@string/six_players"
-            android:id="@+id/six_players"
+            android:text="@string/quietly_marriage"
+            android:id="@+id/quietly_marriage"
+            style="@style/ourButton"/>
+
+        <Button
+            android:text="@string/solo"
+            android:id="@+id/solo"
             style="@style/ourButton"/>
     </LinearLayout>
+
+
 </RelativeLayout>

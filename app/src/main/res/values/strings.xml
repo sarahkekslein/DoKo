@@ -14,6 +14,11 @@
     <string name="five_players">5</string>
     <string name="six_players">6</string>
 
+    <string name="reservation_choice">Welche ?</string>
 
+    <string name="poverty">Armenrecht</string>
+    <string name="marriage">Hochzeit</string>
+    <string name="quietly_marriage">stille Hochzeit</string>
+    <string name="solo">Solo</string>
 
 </resources>
