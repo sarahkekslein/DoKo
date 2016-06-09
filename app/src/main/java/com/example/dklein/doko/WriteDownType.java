@@ -5,5 +5,7 @@ package com.example.dklein.doko;
  */
 public interface WriteDownType {
 
+    //int calculatePoints();
+
 
 }
