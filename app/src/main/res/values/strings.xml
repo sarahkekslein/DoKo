@@ -12,7 +12,7 @@
 
     <string name="reservation">Gab es Bedenken bzw. Stille Hochzeit?</string>
 
-    <string name="solo">Welches Solo?</string>
+    <string name="which_solo">Welches Solo?</string>
     <string name="square">Karo</string>
     <string name="heart">Herz</string>
     <string name="peak">Pik</string>
@@ -26,6 +26,7 @@
     <string name="no">Nein</string>
 
     <string name="name">Name</string>
+    <string name="ok">Ok</string>
 
     <string name="four_players">4</string>
     <string name="five_players">5</string>
@@ -37,5 +38,15 @@
     <string name="marriage">Hochzeit</string>
     <string name="quietly_marriage">stille Hochzeit</string>
     <string name="solo">Solo</string>
+
+    <string name="reh_announcement">Haben die Rehspieler etwas gesagt?</string>
+    <string name="contra_announcement">Haben die Contraspieler etwas gesagt?</string>
+    <string name="reh">Reh</string>
+    <string name="contra">Contra</string>
+    <string name="no_90">keine 90</string>
+    <string name="no_60">keine 60</string>
+    <string name="no_30">keine 30</string>
+    <string name="black">Schwarz</string>
+    <string name="no_announcement">keine Ansage</string>
 
 </resources>

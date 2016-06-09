@@ -24,33 +24,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/reservation_choice"
-            android:id="@+id/reservation_choice"
+            android:text="@string/contra_announcement"
+            android:id="@+id/contra_announcement"
             android:layout_marginBottom="30dp"
             android:textColor="#000000"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
         <Button
-            android:text="@string/poverty"
-            android:id="@+id/poverty"
+            android:text="@string/reh"
+            android:id="@+id/reh"
             style="@style/ourButton"/>
 
         <Button
-            android:text="@string/marriage"
-            android:id="@+id/marriage"
+            android:text="@string/no_90"
+            android:id="@+id/reh_no_90"
             style="@style/ourButton"/>
 
         <Button
-            android:text="@string/quietly_marriage"
-            android:id="@+id/quietly_marriage"
+            android:text="@string/no_60"
+            android:id="@+id/reh_no_60"
             style="@style/ourButton"/>
 
         <Button
-            android:text="@string/solo"
-            android:id="@+id/which_solo"
+            android:text="@string/no_30"
+            android:id="@+id/reh_no_30"
             style="@style/ourButton"/>
+
+        <Button
+            android:text="@string/black"
+            android:id="@+id/reh_black"
+            style="@style/ourButton"/>
+
+        <Button
+            android:text="@string/no_announcement"
+            android:id="@+id/reh_no_announcement"
+            style="@style/ourButton"/>
+
     </LinearLayout>
-
-
 </RelativeLayout>
