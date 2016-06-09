@@ -19,6 +19,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <include layout="@layout/number_of_player" />
+
     <!--
     <include layout="@layout/number_of_player" />
     <include layout="@layout/reservation" />
