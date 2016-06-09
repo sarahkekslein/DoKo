@@ -10,6 +10,23 @@
 
     <string name="name_of_players">Bitte tragt eure Namen ein</string>
 
+    <string name="reservation">Gab es Bedenken bzw. Stille Hochzeit?</string>
+
+    <string name="solo">Welches Solo?</string>
+    <string name="square">Karo</string>
+    <string name="heart">Herz</string>
+    <string name="peak">Pik</string>
+    <string name="cross">Kreuz</string>
+    <string name="knaves">Buben</string>
+    <string name="ladies">Damen</string>
+    <string name="trump">Trumph</string>
+    <string name="meatless">Fleischlos</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="name">Name</string>
+
     <string name="four_players">4</string>
     <string name="five_players">5</string>
     <string name="six_players">6</string>
