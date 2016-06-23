@@ -2,16 +2,29 @@ package com.example.dklein.doko;
 
 import java.util.ArrayList;
 
-/**
- * Created by sb147537 on 02.06.2016.
- */
 public class Game {
 
-    private ArrayList<Player> player = new ArrayList<>();
+    private static Game instance;
 
-    public Game(ArrayList<Player> player){
-        this.player.addAll(player);
+    private ArrayList<Player> players = new ArrayList<>();
+
+    private Game(ArrayList<Player> players){
+
+        this.players.addAll(players);
+
     }
+
+    public static Game getInstance(ArrayList<Player> players) {
+
+        if (instance == null) {
+            instance = new Game(players);
+        }
+
+        return instance;
+
+    }
+
+
 
 
 
