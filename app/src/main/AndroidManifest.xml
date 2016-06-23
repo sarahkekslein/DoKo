@@ -18,6 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Players" />
+        <activity android:name=".Overview" />
+        <activity android:name=".ReservationAct" />
+        <activity android:name=".ReservationChoice" />
+        <activity android:name=".Reh" />
+        <activity android:name=".Contra" />
+        <activity android:name=".Teams" />
+        <activity android:name=".Solo"></activity>
     </application>
 
 </manifest>

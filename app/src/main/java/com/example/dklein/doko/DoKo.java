@@ -2,8 +2,6 @@ package com.example.dklein.doko;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class DoKo extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -46,9 +45,23 @@ public class DoKo extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         createButtonListeners();
+
+
     }
 
-    private void createButtonListeners(){
+    /*
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState ) {
+        //super.onCreateView("Players", getApplicationContext(), ); // richtig? was für ein string? was sind das dritte: attribute?
+        //super.onCreateView(inflater, container, savedInstanceState); // wie superkonstruktor aufrufen? wird methode nicht aufgerufen?..->deshalb keine clicklistener..
+        // für jede einzelne View, weil unterschiedliche zurückgeben?
+        createButtonListeners(inflater, container);
+        View Players = inflater.inflate(R.layout.Players, container, false);
+        return Players;
+    }
+    */
+
+    private void createButtonListeners(/*LayoutInflater inflater, ViewGroup container*/){
         Button button = (Button) findViewById(R.id.four_players);
 
         assert button != null;
@@ -56,20 +69,98 @@ public class DoKo extends AppCompatActivity
 
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.players);
+                //geht hier nicht rein?
+                Toast.makeText(getApplicationContext(), "4 geklickt", Toast.LENGTH_SHORT).show();
+                //Log.i("", "4 geklickt");
+                //setContentView(R.layout.Players);
+                //nächste Activity starten:
+                Intent myIntent = new Intent(DoKo.this, Players.class);
+                //myIntent.putExtra();
+                DoKo.this.startActivity(myIntent);
             }
         });
+
+        /*
+
+        View Players = inflater.inflate(R.layout.Players, container, false);
+        Button button2 = (Button) Players.findViewById(R.id.players_ok);
+        if (button2 == null) {
+            Toast.makeText(getApplicationContext(), "null!!", Toast.LENGTH_SHORT);
+        }
+
+        assert button2 != null;
+        button2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.overview);
+            }
+        });
+
+        View overview = inflater.inflate(R.layout.overview, container, false);
+        Button button3 = (Button) overview.findViewById(R.id.deike);
+
+        assert button3 != null;
+        button3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //was passiert hier?
+            }
+        });
+
+        Button button4 = (Button) overview.findViewById(R.id.sarah);
+
+        assert button4 != null;
+        button4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //was passiert hier?
+            }
+        });
+
+        Button button5 = (Button) overview.findViewById(R.id.writePoints);
+
+        assert button5 != null;
+        button5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.reservation);
+            }
+        });
+
+        View reservation = inflater.inflate(R.layout.reservation, container, false);
+        Button button6 = (Button) reservation.findViewById(R.id.yes_reservation);
+
+        assert button6 != null;
+        button6.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.reservation_choice);
+            }
+        });
+        */
+
+
     }
 
+    /*
     @Override
     public void onBackPressed() {
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
         }
+
     }
+    */
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

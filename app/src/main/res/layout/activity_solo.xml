@@ -40,8 +40,8 @@
             android:layout_width="match_parent" />
 
         <Button
-        android:text="@string/heart"
-        android:id="@+id/heart"
+            android:text="@string/heart"
+            android:id="@+id/heart"
             style="@style/ourButton" />
 
         <Button

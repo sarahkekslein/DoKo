@@ -41,7 +41,7 @@
     <string name="deike">Deike</string>
     <string name="sarah">Sarah</string>
     <string name="write_points">Punkte aufschreiben</string>
-	<string name="reh_announcement">Haben die Rehspieler etwas gesagt?</string>
+    <string name="reh_announcement">Haben die Rehspieler etwas gesagt?</string>
     <string name="contra_announcement">Haben die Contraspieler etwas gesagt?</string>
     <string name="reh">Reh</string>
     <string name="contra">Contra</string>
@@ -49,4 +49,11 @@
     <string name="no_60">keine 60</string>
     <string name="no_30">keine 30</string>
     <string name="black">Schwarz</string>
-    <string name="no_announcement">keine Ansage</string></resources>
+    <string name="no_announcement">keine Ansage</string>
+
+    <string name="reh_players">Wer waren die Rehspieler/der Rehspieler?</string>
+    <string name="contra_players">Wer waren die Contraspieler?</string>
+
+
+</resources>
+
